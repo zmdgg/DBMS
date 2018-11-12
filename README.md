@@ -15,6 +15,6 @@ While循环调用getInput()方法获取SQL语句，并调用praseSQL()方法解�
 
 ## 数据库文件目录结构说明
 * 1．目录结构图 
-![目录结构图 ]()
+![目录结构图 ](https://github.com/zmdgg/DBMS/blob/master/dic.png)
 * 2．说明
 userInfo.dbf存放用户信息，userInfo.out存放用户信息表的约束；DBMS文件夹下有一个数据库文件夹，其下可以有任意个数据库名文件夹；authorityInfo.out是存放某个数据库的用户访问权限；表文件夹下有任意个表明文件夹和一个FKInfo.out以及一个index.out文件，其中FKInfo.out是存放外键约束信息的文件；每个表名文件夹下都有一个表名.dbf和一个表名.out文件，分别存放该数据表的表中数据和属性信息。
